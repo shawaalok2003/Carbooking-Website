@@ -1,0 +1,50 @@
+.car-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    width: 390px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: #fff;
+  }
+  
+  .car-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .car-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .car-item h3 {
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .car-item p {
+    color: #666;
+  }
+  
+  .car-description {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+  
+  .rent-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .rent-button:hover {
+    background-color: #45a049;
+  }
